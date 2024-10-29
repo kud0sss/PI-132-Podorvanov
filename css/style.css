@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-family: "Unbounded";
+    font-size: 2.2em;
+}
+
+header {
+    background-color: rgb(17, 129, 178);
+    text-align: center;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #ddedf4;
+}
+
+li {
+    list-style-type: none;
+}
+
+.page-list {
+    line-height: 5px;
+}
+
+.info-list {
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+}
+
+.logo-list {
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(33, 34, 33);
+    padding: 5px 10px;
+    
+}
+
+.thermens {
+    padding: 5px;
+}
+
+.introduction {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: "Unbounded";
+    text-align: center;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+p {
+    font-size: 1.15rem;
+    line-height: 2rem;
+    text-indent: 75px;
+}
+
+.p1 {
+    letter-spacing: 6px;
+}
+
+.citata {
+    font-size: 1rem;
+    line-height: 50px;
+    height: auto;
+    text-align: center;
+    font-style: oblique;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+.avatar1 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px rgba(65, 65, 65, 0.651);
+}
+
+.articles {
+    padding: 20px 50px;
+}
+
+.content {
+    padding: 20px 50px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+
+.page-list li {
+    padding: 1ch 50px;
+}
+
+.logos {
+    padding: 3px 75px;
+}
+
+.table1 {
+    padding-left: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+*:lang(en) {
+    color: rgb(240, 219, 79);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(48, 48, 48);
+}   
+
+#contact-form input[type="text"] {
+    height: 17px;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgba(126, 126, 126, 0.5) solid 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact-form input[type="email"] {
+    height: 17px;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgba(126, 126, 126, 0.5) solid 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact-form input[type="tel"] {
+    height: 17px;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgba(126, 126, 126, 0.5) solid 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact-form input[type="date"] {
+    height: 17px;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgba(126, 126, 126, 0.5) solid 1px;
+    background-color:rgb(255, 255, 255);
+}
+
+#contact-form select {
+    border: rgba(126, 126, 126, 0.5) solid 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact-form textarea {
+    height: 17px;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgba(126, 126, 126, 0.5) solid 1px;
+    background-color:rgb(255, 255, 255);
+}
+
+#contact-form input[type="submit"] {
+    width: 200px;
+    padding: 10px 30px;
+    border: none;
+    text-transform: uppercase;
+    color: (black);
+    border-radius: 75px;
+    background-color: rgba(0, 0, 0, 0.175);
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: rgba(17, 130, 178, 0.5);
+    color: black;
+    border-radius: 75px;
+}
+
+table {
+    border: 3px black solid;
+    border-collapse: collapse;
+}
+
+.table td, .table th {
+    border: 1px black solid;
+    padding: 10px 20px;
+}
+
+.table tr:nth-child(odd) {
+    background-color: rgb(17, 130, 178);
+}
+
+.table th:nth-child(1) {
+    color: black;
+}
+
+.table tr:nth-child(5) {
+    color: black;
+}
+
+after {
+    color: rgb(0, 238, 255);
+    font-weight: bold;
+    background-color: rgb(17, 129, 178);
+    box-shadow: 3px 3px 3px rgba(65, 65, 65, 0.651);
+}
+
+.table td:nth-child(1) {
+    color: black;
+    font-weight: bolder;
+}
+
+tr {
+    margin-top: 50px;
+}
+
+tbody {
+    padding-top: 40px;
+}
+
+
+
+
+

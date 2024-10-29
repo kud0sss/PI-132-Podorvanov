@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Брендан Айк</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Брендан Айк</h1>
+        <a href="index.html">
+            <img src="img/icons8-javascript.svg" alt="логотип" width="130px" >  
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Введение</a></li>
+                <li><a href="#information">Информация</a></li>
+                <li><a href="#contact-form">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="introduction" id="introduction">
+            <h2>Введение</h2>
+            <img class="avatar" src="img/eich.jpg" alt="Брендан Айк" width="640" height="800">
+            <section class="citata" id="citata">
+            <cite>В теории, теория и практика неразделимы. На практике это не так. <b>— Брендан Айк</b></cite>
+            </section>
+            <p><b>Брендан  Айк</b> — американский программист, создатель языка программирования JavaScript. С 1995 года работал в компании Netscape; участвовал в основании Mozilla, до 2014 года был техническим директором в Mozilla Corporation. В марте 2014 года был назначен CEO, но вскоре покинул Mozilla под давлением недовольных его назначением из-за поддержки им в 2008 году запрета однополых браков. На данный момент работает исполнительным директором Brave Software.</p>
+            <p>Айк начал карьеру в Silicon Graphics, где проработал семь лет. Следующие три года проработал в MicroUnity Systems Engineering.
+            Эйх больше всего известен своей работой в Netscape и Mozilla. Он начал работу в Netscape в апреле 1995 года, где разработал язык программирования, изначально называвшийся «Mocha», затем переименованный в «LiveScript», и наконец переименованный в JavaScript для браузера Netscape Navigator. В начале 1998 года участвовал в открытии mozilla.org в качестве главного архитектора. Когда в июле 2003 года AOL закрыла подразделение Netscape, Эйх перешёл в Mozilla Foundation. Участвовал в создании языка программирования Rust в Mozilla в 2012 году.
+            В августе 2005 года, проработав главным технологом и членом совета директоров Mozilla Foundation, Брендан стал техническим директором Mozilla Corporation, а 26 марта 2014 года был назначен исполнительным директором.</p>
+        </section>
+        <section class="information" id="information">
+            <h2>Информация</h2>
+            <ol class="page-list">
+                <li><a href="article1.html">Биография</a></li>
+                <li><a href="article2.html">Основные достижения</a></li>
+                <li><a href="article3.html">Интересные факты</a></li>
+                <li><a href="article4.html" class="terms-list">Список терминов</a>     <after>Важно!</after></li>
+            </ol>
+            <h2>Обратная связь</h2>
+            <section class="table1">
+                <form id="contact-form">
+                    <div class="form_item">
+                        <label >Тема</label><br>
+                        <select name="topic" id="topic">
+                            <option value="1">Оставить отзыв</option>
+                            <option value="2">Сотрудничество</option>
+                            <option value="3">Другое</option>
+                        </select>
+                    </div>
+                    <div class="form_item">
+                        <label for="name">ФИО</label><br>
+                        <input type="text" name="name" id="name" required><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="tel">Телефон</label><br>
+                        <input type="tel" name="tel" id="tel" required><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="date">Дата</label><br>
+                        <input type="date" name="date" id="name" required><br>
+                    </div>
+                    <div class="form_item">
+                        <label for="textarea">
+                            Текст сообщения
+                        </label><br>
+                        <textarea name="textarea" id="textarea" rows="3"></textarea><br>
+                    </div>
+                    <div class="form_item">
+                        <input type="checkbox" id="agreement">
+                        <label for="agreement">Запомнить меня на этом компьютере</label><br>
+                    </div>
+                    <div class="form_item">
+                        <input type="radio" id="male" name="gender" checked>
+                        <labellabel for="male">муж</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">жен</label><br>
+                    </div>
+                    <section class="button">
+                    <div class="form_item">
+                        <input type="submit">
+                    </div>
+                    </section>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <ul class="info-list">
+            <li><a style="color: white" href="https://midis.ru/specialities/razrabotka-veb-i-mobilnykh-prilozheniy/">&copy;Подорванов Арсений, 2024</a></li>
+            <li><a style="color: white" href="tel:+79507710010">+7 (950) 771-00-10</a></li>
+            <li><a style="color: white" href="mailto:brendaneich@js.com">brendaneich@js.com</a></li>
+        </ul>
+        <ul class="logo-list">
+            <a href="https://www.youtube.com/channel/UCue9uJhzkuO6qbvDuLOjfxA"><img src="img/icons8-youtube-play.svg" alt="ytlogo" width="32"></a>
+            <a href="https://vk.com/midis"> <img src="img/icons8-вконтакте.svg" alt="vklogo" width="32"></a>
+            <a href="https://t.me/midis"><img  src="img/icons8-телеграмма-app.svg" alt="tglogo" width="30"></a>
+        </ul>
+    </footer>
+</body>
+</html>

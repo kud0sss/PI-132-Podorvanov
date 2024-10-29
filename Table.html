@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+<head>
+    <body>
+        <table class = "table-example">
+            <caption>Счет</caption>
+            <thead>
+                <tr>
+                    <th>Введение</th>
+                    <th>Биография</th>
+                    <th>Интересные факты</th>
+                    <th>Основные достижения</th>
+                  </tr>
+                  <tr>
+                    <td>Американский программист</td>
+                    <td>Родился 4 июля 1961 года в Питтсбурге</td>
+                    <td>Брендан заядлый читатель</td>
+                    <td>Создатель JavaScript</td>  
+                  </tr>
+                  <tr>
+                      <td>Работал в компании Netscape</td>
+                      <td>Окончил Иллинойский университет</td>
+                      <td>Айк женат на своей супруге Трейси, у них двое детей</td>
+                      <td>Сооснователь Mozilla</td>
+                  </tr>
+                  <tr>
+                    <td>Создатель языка программирования JavaScript</td>
+                    <td>Начал свою карьеру в Silicon Graphics</td>
+                    <td>Айк создал JavaScript всего за 10 дней</td>
+                    <td>Генеральный директор Mozilla Corporation</td>
+                  </tr>
+                  <tr>
+                      <td>Участвовал в основании Mozilla</td>
+                      <td>Его вклад в ИТ-индустрию достаточно велик</td>
+                      <td>В свободное время любит ходить в походы и играть на гитаре</td>
+                      <td>Создатель браузера Brave</td>
+                  </tr>
+            </tbody>
+        </table>
+        <form id="form-example">
+            <label for="login">Введите логин</label><br>
+            <input type="text" id="login" placeholder="Логин" required><br>
+            <label for="pass">Введите пароль</label><br>
+            <input type="password" id="pass" placeholder="Пароль" required><br>
+            <input type="checkbox" id="agreement">
+            <label for="agreement">Запомнить меня</label><br>
+            <input type="radio" id="male" name="gender" >
+            <label for="male">М</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Ж</label>
+            <input type="submit" value="Войти">
+        </form>
+    </body>
+</head>
