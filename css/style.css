@@ -75,7 +75,7 @@ p {
     text-indent: 75px;
 }
 
-.p1 {
+p::first-line {
     letter-spacing: 6px;
 }
 
@@ -186,12 +186,13 @@ a:active {
 }
 
 #contact-form select {
+    width: 410px;
     border: rgba(126, 126, 126, 0.5) solid 1px;
     background-color: rgb(255, 255, 255);
 }
 
 #contact-form textarea {
-    height: 17px;
+    height: auto;
     width: 400px;
     padding: 5px;
     margin-bottom: 10px;
